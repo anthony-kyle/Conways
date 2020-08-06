@@ -1,3 +1,6 @@
+const chalk = require('chalk');
+const randColor = require('./randColor');
+
 function displayBoard (board) {
   // eslint-disable-next-line no-console
   const char = String.fromCharCode(9600);
@@ -6,7 +9,8 @@ function displayBoard (board) {
     board[r].forEach((col, c) => {
 
       if (col === true){
-        output += ' ' + char;
+        let color = randColor();
+        output += ' ' + chalk.rgb(color.red, color.green, color.blue)(char);
       } else {
         output += '  ';
       }
