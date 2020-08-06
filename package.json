@@ -4,7 +4,8 @@
   "description": "Conways game of life",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
