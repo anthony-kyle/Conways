@@ -1,7 +1,12 @@
-function createBoard (size) {
+function createBoard (size, width) {
     let board = Array(size).fill('');
     board.forEach((row, r) => {
-        board[r] = Array(size).fill('');
+        if (width){
+            board[r] = Array(size*width).fill(false);
+        } else {
+            board[r] = Array(size).fill(false);
+        }
+        
     })
     return board;
 }
