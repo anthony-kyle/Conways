@@ -4,8 +4,8 @@ const displayBoard = require('./displayBoard');
 const clear = require('clear');
 const generateLife = require('./generateLife');
 
-const size = 50
-const refreshInterval = 200;
+const size = 100;
+const refreshInterval = 100;
 
 
 

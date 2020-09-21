@@ -3,7 +3,7 @@ const randColor = require('./randColor');
 
 function displayBoard (board) {
   // eslint-disable-next-line no-console
-  const char = String.fromCharCode(9600);
+  const char = String.fromCharCode(25500);
   let output = '';
   board.forEach((row, r) => {
     board[r].forEach((col, c) => {
