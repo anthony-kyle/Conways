@@ -1,5 +1,14 @@
+/******************************************************************************
+ * App:       Conway's Game of Life
+ * Filename:  tests/indicesAreOutOfBounds.test.js
+ * Purpose:   Test to verify the indicesAreOutOfBounds function
+ * Author:    Anthony McGrath - akm@anthonykyle.co.nz
+ *****************************************************************************/
+
+// Require Functions
 const indicesAreOutOfBounds = require('../indicesAreOutOfBounds')
 
+// Run Test
 test('indicesAreOutOfBounds', () => {
   const testArray = [1, 2, 3]
   const expecteds = {

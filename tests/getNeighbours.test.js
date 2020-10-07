@@ -1,6 +1,15 @@
+/******************************************************************************
+ * App:       Conway's Game of Life
+ * Filename:  tests/getNeighbours.test.js
+ * Purpose:   Test to verify the getNeighbours function
+ * Author:    Anthony McGrath - akm@anthonykyle.co.nz
+ *****************************************************************************/
+
+// Require Functions
 const getNeighbours = require('../getNeighbours')
 const createBoard = require('../createBoard.js')
 
+// Run Tests
 test('getNeighbours in corner', () => {
   const board = createBoard(10)
   board[0][0] = 1000000

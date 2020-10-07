@@ -1,6 +1,15 @@
+/******************************************************************************
+ * App:       Conway's Game of Life
+ * Filename:  tests/countAliveNeighbours.test.js
+ * Purpose:   Test to verify the countAliveNeighbours function
+ * Author:    Anthony McGrath - akm@anthonykyle.co.nz
+ *****************************************************************************/
+
+// Require Functions
 const countAliveNeighbours = require('../countAliveNeighbours')
 const createBoard = require('../createBoard')
 
+// Run Test
 test('countAliveNeighbours', () => {
   const board = createBoard(10)
   board[0][0] = true

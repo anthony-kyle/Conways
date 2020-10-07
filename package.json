@@ -2,21 +2,21 @@
   "name": "conways",
   "version": "0.3.1",
   "description": "Conways game of life",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
     "test": "jest --watch",
-    "start": "node index.js"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dev-academy-challenges/conways.git"
+    "url": "git+https://github.com/anthony-kyle/Conways.git"
   },
-  "author": "EDA",
+  "author": "Anthony McGrath",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dev-academy-challenges/conways/issues"
+    "url": "https://github.com/anthony-kyle/Conways/issues"
   },
-  "homepage": "https://github.com/dev-academy-challenges/conways#readme",
+  "homepage": "https://github.com/anthony-kyle/Conways#readme",
   "devDependencies": {
     "jest": "^26.0.1"
   },

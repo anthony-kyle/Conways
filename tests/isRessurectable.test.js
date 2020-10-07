@@ -1,5 +1,14 @@
+/******************************************************************************
+ * App:       Conway's Game of Life
+ * Filename:  tests/isRessurectable.test.js
+ * Purpose:   Test to verify the isRessurectable function
+ * Author:    Anthony McGrath - akm@anthonykyle.co.nz
+ *****************************************************************************/
+
+// Require Functions
 const isRessurectable = require('../isRessurectable')
 
+// Run Test
 test('isRessurectable normal cases', () => {
   const expecteds = {
     0: false,

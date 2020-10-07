@@ -1,6 +1,15 @@
+/******************************************************************************
+ * App:       Conway's Game of Life
+ * Filename:  tests/nextBorad.test.js
+ * Purpose:   Test to verify the nextBoard function
+ * Author:    Anthony McGrath - akm@anthonykyle.co.nz
+ *****************************************************************************/
+
+// Require Functions
 const createBoard = require('../createBoard')
 const nextBoard = require('../nextBoard')
 
+// Run Tests
 test('nextBoard is not equal to createBoard', () => {
   const board = createBoard(10)
   const newBoard = nextBoard(board)

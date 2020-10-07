@@ -1,5 +1,14 @@
+/******************************************************************************
+ * App:       Conway's Game of Life
+ * Filename:  tests/isOutOfBounds.test.js
+ * Purpose:   Test to verify the isOutOfBounds function
+ * Author:    Anthony McGrath - akm@anthonykyle.co.nz
+ *****************************************************************************/
+
+// Require Functions
 const isOutOfBounds = require('../isOutOfBounds')
 
+// Run Test
 test('isOutOfBounds', () => {
   const testArray = [1, 2, 3]
   const expecteds = {
